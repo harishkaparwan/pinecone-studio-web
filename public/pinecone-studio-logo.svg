@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pinecone Studio logo dark">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="492" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171831"/>
+      <stop offset="1" stop-color="#101225"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="180" y1="80" x2="336" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18afe4"/>
+      <stop offset="1" stop-color="#5cf27f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Vector shape symbolizing pinecone nodes list -->
+  <g transform="translate(128, 128)">
+    <path d="M128 20 C180 80, 236 160, 128 230 C20 160, 76 80, 128 20 Z" fill="url(#glow)" fill-opacity="0.3"/>
+    <path d="M128 60 C165 110, 205 170, 128 220 C51 170, 91 110, 128 60 Z" fill="url(#glow)" fill-opacity="0.6"/>
+    <path d="M128 100 C150 140, 180 180, 128 215 C76 180, 106 140, 128 100 Z" fill="url(#glow)"/>
+    <circle cx="128" cy="245" r="10" fill="#5cf27f"/>
+  </g>
+</svg>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy | Pinecone Studio</title>
+  <meta name="description" content="Privacy Policy for Pinecone Studio extension and workbench" />
+  <style>
+    :root {
+      --bg: #070919;
+      --card: #0c0e25;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: rgba(148, 163, 184, 0.16);
+      --accent: #18afe4;
+      --accent-soft: #84dbff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(24, 180, 220, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 90% 0%, rgba(92, 242, 127, 0.1) 0%, transparent 35%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 2.2rem;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 1.35rem;
+      color: var(--accent);
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    ul {
+      margin-top: 8px;
+      padding-left: 20px;
+    }
+
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .note {
+      margin-top: 24px;
+      padding: 14px 16px;
+      border-left: 4px solid #5cf27f;
+      background: rgba(92, 242, 127, 0.06);
+      border-radius: 8px;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent-soft);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 16px 10px; }
+      main { padding: 24px; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>Product:</strong> Pinecone Studio (VS Code Extension &amp; Web app)</p>
+    <p class="meta"><strong>Effective date:</strong> June 6, 2026</p>
+
+    <h2>Overview</h2>
+    <p>
+      Pinecone Studio is designed to inspect and manage your own Pinecone vector database. We take privacy extremely seriously. Because our tools function as local, direct clients connecting from your own editor or browser, we do not monitor, store, or copy your data. Your data stays entirely yours.
+    </p>
+
+    <h2>Information We Process</h2>
+    <ul>
+      <li><strong>Connection Credentials:</strong> Your Pinecone Host URL and optional API Key are processed entirely locally. In the VS Code Extension, credentials are stored in your secure workspace Storage context. In the Web App, they are held inside your browser's local storage.</li>
+      <li><strong>Vector Indices &amp; Payloads:</strong> All search queries, upsert commands, index schemas, and payload properties are fetched directly by your system and are never routed to any server owned by the developers.</li>
+    </ul>
+
+    <h2>How We Use Information</h2>
+    <ul>
+      <li>To initialize connection components and interface fields locally.</li>
+      <li>To enable similarity indexing, schema inspection, and raw request routing.</li>
+      <li>Absolutely no telemetry, user tracking, or analytical data is transmitted from the studio out-of-the-box.</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>
+      Data entered into Pinecone Studio is processed locally over standard HTTP and HTTPS requests. Security of database management endpoints remains the developer's responsibility. We encourage setting up secure local connections or SSL proxies when communicating with critical production indexes.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy-related inquiries, feedback, or custom requests:
+      <a href="mailto:harishkaparwan@gmail.com">harishkaparwan@gmail.com</a>
+    </p>
+
+    <p class="note">
+      This is a public minimal privacy policy complying with developer requirements for standard VS Code, Chrome extension, and GitHub Pages host releases.
+    </p>
+  </main>
+</body>
+</html>
